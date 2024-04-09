@@ -12,6 +12,6 @@ PKG_NAME:=luci-app-openvpn-server
 PKG_VERSION:=3.0
 PKG_RELEASE:=0
 
-include ../../luci/luci.mk
+include $(TOPDIR)/luci/luci.mk
 
 # call BuildPackage - OpenWrt buildroot signature
